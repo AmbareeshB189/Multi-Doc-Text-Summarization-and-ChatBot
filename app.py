@@ -20,7 +20,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 def load_model():
     callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
     llama_model = LlamaCpp(
-        model_path="/Users/saiabhiramjaini/Desktop/ABHIRAM/PROJECT SCHOOL 3/LLAMA-2/llama-2-7b-chat.Q4_K_M.gguf",
+        model_path="/Users/ambareeshbommakanti/Desktop/PROJECTSCHOOL/LLAMA-2/llama-2-7b-chat.Q4_K_M.gguf",
         temperature=0.5,  # Level of creativity (controls the diversity of generated text)
         n_gpu_layers=40,  # Number of GPU-accelerated layers required for the Llama2 model
         n_batch=512,      # Amount of text processed at once (batch size)
